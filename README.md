@@ -1,2 +1,7 @@
-# masstransit-sample
-Sample project using .NET 7 with MassTransit for messaging
+# BookStore Sample
+
+## Development
+
+### justfile
+
+https://just.systems/man/en/chapter_1.html

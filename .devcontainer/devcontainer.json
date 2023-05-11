@@ -1,13 +1,20 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/dotnet-postgres
 {
-	"name": "MassTransit Sample",
+	"name": "BookStore",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"features": {
-		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
 		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"skellock.just",
+				"svelte.svelte-vscode"
+			]
+		}
 	}
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
